@@ -44,16 +44,8 @@ export default function Eventsind() {
             style={{ fontFamily: "Epika" }}
             className="bg-gradient-to-r from-[#d4af37] via-[#f5deb3] to-[#b8860b] bg-clip-text text-transparent text-3xl md:text-6xl font-bold uppercase drop-shadow-lg max-w-[90vw] sm:max-w-3xl"
           >
-            The Event name
+           Events
           </h2>
-          <p className="text-white font-thin text-2xl mt-4 max-w-[90vw] sm:max-w-xl drop-shadow-md">
-            The details of the event will be displayed here. This section can
-            include information about the event's purpose, date, time.
-          </p>
-          <p className="text-white">
-            <span className="text-xl my-4">Date : </span>25/08/25
-          </p>
-          <GoldButton text={"Apply Now"} to="/events" />
         </div>
       </div>
 
@@ -63,7 +55,7 @@ export default function Eventsind() {
           style={{ fontFamily: "Epika" }}
           className="text-4xl sm:text-5xl font-bold text-center mb-8"
         >
-          More Events
+          Explore Events
         </h1>
 
         <div className="px-3 lg:mx-30 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4 mt-5 mb-6">

@@ -222,7 +222,7 @@ const About = () => {
         </div>
       </section>
 
-      {/* Why Maitri
+     
       <section className="max-w-6xl mx-auto px-4 py-12">
         <h2 className="text-3xl font-bold text-center mb-8">Why Choose Us</h2>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 text-center">
@@ -245,7 +245,7 @@ const About = () => {
             </p>
           </div>
         </div>
-      </section> */}
+      </section>
 
       {/* Partners */}
        <section className="max-w-6xl mx-auto px-4 py-10">

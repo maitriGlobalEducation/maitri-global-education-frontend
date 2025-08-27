@@ -116,7 +116,7 @@ if (!slide) {
                 {/* <button className="bg-white text-black px-6 py-2 rounded-full font-semibold hover:bg-gray-200 transition hover:scale-105 cursor-pointer">
                   Apply Now
                 </button> */}
-                <GoldButton text={'Apply Now'} to="/scholarship"/>
+                        <GoldButton text={'Apply Now'} to="/scholarship" borderColor="white" textColor="white" hoverBg="white" hoverText="black"/>
                 <div className="flex justify-center gap-4 mt-4">
                   <button
                     onClick={prev}
@@ -161,7 +161,8 @@ if (!slide) {
                 {/* <button className="bg-white text-black px-6 py-2 rounded-full font-semibold hover:bg-gray-200 transition hover:scale-105 cursor-pointer">
                   Apply Now
                 </button> */}
-                <GoldButton text={'Apply Now'} to="/scholarship"/>
+                          <GoldButton text={'Apply Now'} to="/scholarship" borderColor="white" textColor="white" hoverBg="white" hoverText="black"/>
+
                 <div className="flex justify-center gap-4 mt-4">
                   <button
                     onClick={prev}
@@ -221,7 +222,7 @@ if (!slide) {
           {/* <button className="bg-white text-black px-6 py-2 rounded-full font-semibold hover:bg-gray-200 transition hover:scale-105 cursor-pointer">
             Apply Now
           </button> */}
-          <GoldButton text={'Apply Now'} to="/scholarship"/>
+          <GoldButton text={'Apply Now'} to="/scholarship" borderColor="white" textColor="white" hoverBg="white" hoverText="black"/>
           <div className="flex justify-center gap-4 mt-6">
             <button
               onClick={prev}

@@ -118,7 +118,7 @@ const ImageCarousel = () => {
               className="w-full h-full object-cover object-[center_30%]"
             />
             <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 z-10">
-              <GoldButton text={"Save Your Seat"} to="/events" />
+              <GoldButton text={"Save Your Seat"} to="/events" borderColor="white" textColor="white" hoverBg="white" hoverText="black"/>
             </div>
           </div>
 

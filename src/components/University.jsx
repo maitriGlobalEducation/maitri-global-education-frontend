@@ -130,7 +130,7 @@ const University = () => {
 
                 {/* Button */}
                 <Link to={`/universities/${card.Universityname}`}>
-  <GoldButton text="Go to University Page" />
+  <GoldButton text={'Go to University Page'} to={`/universities/${card.Universityname}`} borderColor="white" textColor="white" hoverBg="white" hoverText="black"/>
 </Link>
 
               </div>
@@ -190,7 +190,7 @@ const University = () => {
           </button> */}
 
           <Link to={`/universities/${cardData[currentIndex].Universityname}`}>  
-          <GoldButton text={"Go to University Page →"}  />
+          <GoldButton text={'Go to University Page →'} to="/universities/${cardData[currentIndex].Universityname}" borderColor="white" textColor="white" hoverBg="white" hoverText="black"/>
           </Link>
         </div>
 
