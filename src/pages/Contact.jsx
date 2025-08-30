@@ -4,7 +4,7 @@ export default function JobSearch() {
 
   return (
     <div>
-      {/* Hero Section */}
+    
       <div className="w-full h-[50vh] relative">
         <img src="https://images.pexels.com/photos/821754/pexels-photo-821754.jpeg" alt="" className="w-full h-full object-cover opacity-50" />
 
@@ -24,16 +24,16 @@ export default function JobSearch() {
       <div className="py-16 px-4 sm:px-10 flex flex-col items-center">
   <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-10 items-stretch">
     
-   {/* Left Section (Illustration + Text) */}
+  
 <div className="flex flex-col items-center justify-center text-center space-y-6">
-  {/* Image */}
+ 
   <img
     src="https://images.pexels.com/photos/4160139/pexels-photo-4160139.jpeg"
     alt="Contact"
     className="w-40 md:w-60 h-auto object-cover rounded-lg shadow-md"
   />
 
-  {/* Text */}
+  
   <div>
     <h2 className="text-3xl font-bold text-orange-600 mb-2">Get In Touch</h2>
     <p className="text-gray-700">Contact us for any queries</p>
@@ -41,7 +41,7 @@ export default function JobSearch() {
 </div>
 
 
-    {/* Right Section (Form) */}
+  
     <div className="bg-gray-50 p-6 rounded-xl shadow-md flex flex-col justify-center">
       <form className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         <input type="text" placeholder="Name *" className="p-3 border rounded-lg w-full" />
@@ -59,7 +59,6 @@ export default function JobSearch() {
         <textarea placeholder="Message *" rows="4" className="p-3 border rounded-lg w-full sm:col-span-2"></textarea>
       </form>
 
-      {/* Checkboxes */}
       <div className="mt-4 space-y-2 text-sm text-gray-600">
         <label className="flex items-start space-x-2">
           <input type="checkbox" className="mt-1" />
@@ -81,13 +80,14 @@ export default function JobSearch() {
         </label>
       </div>
 
-      {/* Submit Button */}
       <div className="mt-6 text-center">
         <GoldButton to="/contact" text={"SUBMIT"} />
       </div>
     </div>
   </div>
 </div>
+
+
     </div>
   );
 }

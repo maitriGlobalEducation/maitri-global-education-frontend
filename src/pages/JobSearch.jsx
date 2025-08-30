@@ -4,7 +4,6 @@ export default function JobSearch() {
 
   return (
     <div>
-      {/* Hero Section */}
       <div className="w-full h-[50vh] relative">
         <img src="https://images.pexels.com/photos/5439153/pexels-photo-5439153.jpeg" alt="" className="w-full h-full object-cover" />
 
@@ -23,16 +22,15 @@ export default function JobSearch() {
       <div className="py-16 px-4 sm:px-10 flex flex-col items-center">
   <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-10 items-stretch">
     
-    {/* Left Section (Image + Text Overlay) */}
+    
     <div className="relative w-full h-full rounded-xl overflow-hidden shadow-md">
-      {/* Background Image */}
+     
       <img
         src="https://images.pexels.com/photos/8430302/pexels-photo-8430302.jpeg"
         alt="Counseling"
         className="absolute inset-0 w-full h-full object-cover opacity-30"
       />
 
-      {/* Text Overlay */}
       <div className="relative z-10 flex flex-col justify-center items-start p-6 h-full">
         <h2 className="text-2xl font-bold mb-4 text-black drop-shadow-lg">
           Counseling Highlights
@@ -48,7 +46,7 @@ export default function JobSearch() {
       </div>
     </div>
 
-    {/* Right Section (Form) */}
+   
     <div className="bg-gray-50 p-6 rounded-xl shadow-md flex flex-col justify-center">
       <h2 className="text-2xl font-semibold mb-4">Book Your Counseling Session</h2>
       <p className="text-gray-600 mb-6">
