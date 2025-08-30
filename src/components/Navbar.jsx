@@ -8,9 +8,9 @@ const navLinks = [
   { title: "EVENTS & WEBINARS", href: "/events" },
   { title: "BLOGS", href: "/blogs" },
   { title: "SERVICES", href: "#" },
-  { title: "JOB SEARCH", href: "#" },
+  { title: "JOB SEARCH", href: "/job-search" },
   { title: "ABOUT", href: "/about" },
-  { title: "CONTACT US", href: "#" },
+  { title: "CONTACT US", href: "/contact" },
 ];
 
 export default function Navbar() {

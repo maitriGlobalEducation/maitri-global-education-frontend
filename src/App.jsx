@@ -32,6 +32,8 @@ import ScholarshipForm from './pages/ScholarshipForm';
 
 import BlogsForm from './pages/BlogsForm';
 import EventForm from './pages/EventForm';
+import JobSearch from './pages/JobSearch';
+import Contact from './pages/Contact';
 
 
 
@@ -59,6 +61,8 @@ function App() {
 
           <Route path="/blogs-form" element={<BlogsForm/>}/>
           <Route path="/event-form" element={<EventForm/>}/>
+          <Route path="/job-search" element={<JobSearch/>}/>
+          <Route path="/contact" element={<Contact/>}/>
           {/* <Route path="/services" element={<Serices/>}/> */}
           
           <Route path="/" element={
