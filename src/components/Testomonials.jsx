@@ -45,8 +45,8 @@ const Testomonials = () => {
   const visibleTestimonials = testimonial.slice(currentIndex, currentIndex + 3);
 
   return (
-    <section className="w-full max-w-full py-12 px-2 flex flex-col items-center overflow-hidden">
-      
+    <section className="w-full bg-[#2d2d2d] max-w-full py-12 px-2 flex flex-col items-center overflow-hidden">
+
       {/* User Images Row */}
       <div className="flex flex-row justify-center gap-4 md:gap-24 mb-8 w-full max-w-full overflow-x-auto">
         {visibleTestimonials.map((t, idx) => (
@@ -70,9 +70,9 @@ const Testomonials = () => {
         style={{ fontFamily: "Epika", fontWeight: "bold" }}
         className="text-center mb-10 w-full max-w-full"
       >
-        <p className="uppercase tracking-widest text-sm text-gray-500 mb-2">Join over</p>
-        <h2 className="text-4xl md:text-6xl font-semibold text-black mb-2">10000+</h2>
-        <h2 className="text-4xl md:text-6xl font-semibold text-black">Students</h2>
+        <p className="uppercase tracking-widest text-sm text-white mb-2">Join over</p>
+        <h2 className="text-4xl md:text-6xl font-semibold text-white mb-2">10000+</h2>
+        <h2 className="text-4xl md:text-6xl font-semibold text-white">Students</h2>
       </div>
 
       {/* Testimonials Row */}
@@ -106,7 +106,7 @@ const Testomonials = () => {
         <button
           onClick={handlePrev}
           disabled={currentIndex === 0}
-          className="w-10 h-10 flex items-center justify-center border border-gray-300 rounded-full hover:bg-gray-100 transition-colors cursor-pointer hover:scale-105 disabled:opacity-50"
+          className="bg-gray-300 hover:bg-gray-400 text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold cursor-pointer"
         >
           <svg
             className="w-5 h-5"
@@ -122,7 +122,7 @@ const Testomonials = () => {
         <button
           onClick={handleNext}
           disabled={currentIndex + 3 >= testimonial.length}
-          className="w-10 h-10 flex items-center justify-center border border-gray-300 rounded-full hover:bg-gray-100 transition-colors cursor-pointer hover:scale-105 disabled:opacity-50"
+         className="bg-gray-300 hover:bg-gray-400 text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold cursor-pointer"
         >
           <svg
             className="w-5 h-5"

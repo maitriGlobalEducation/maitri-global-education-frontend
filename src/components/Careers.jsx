@@ -46,12 +46,12 @@ const Careers = () => {
   };
 
   return (
-    <section className="bg-black py-8 px-4 sm:px-6 lg:px-8">
+    <section className="bg-[#2d2d2d] py-8 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         {/* Heading */}
         <h1
           style={{ fontFamily: "Epika" }}
-          className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white/20 mb-12 tracking-wider"
+          className="text-5xl sm:text-6xl lg:text-7xl font-bold bg-gradient-to-r from-[#d4af37] via-[#f5deb3] to-[#b8860b] bg-clip-text text-transparent mb-12 tracking-wider"
         >
           Elite Career Choices
         </h1>
@@ -105,15 +105,15 @@ const Careers = () => {
           <div className="flex gap-3 justify-center">
             <button
               onClick={() => scroll("left")}
-              className="p-3 rounded-full bg-neutral-800 hover:bg-neutral-700 transition"
+              className="bg-gray-300 hover:bg-gray-400 text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold cursor-pointer"
             >
-              <ChevronLeft className="w-5 h-5 text-white" />
+              <ChevronLeft className="w-5 h-5 " />
             </button>
             <button
               onClick={() => scroll("right")}
-              className="p-3 rounded-full bg-neutral-800 hover:bg-neutral-700 transition"
+              className="bg-gray-300 hover:bg-gray-400 text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold cursor-pointer"
             >
-              <ChevronRight className="w-5 h-5 text-white" />
+              <ChevronRight className="w-5 h-5 " />
             </button>
           </div>
         </div>

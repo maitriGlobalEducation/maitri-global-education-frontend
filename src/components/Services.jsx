@@ -63,11 +63,11 @@ const steps = [
 
 const Services = () => {
   return (
-   <div className="flex justify-center items-center w-full py-6 px-4">
-  <div className="w-full max-w-7xl bg-white rounded-2xl shadow-2xl px-6 sm:px-10 py-10 flex flex-col lg:flex-row gap-10">
-    
+   <div className="flex bg-[#2d2d2d] justify-center items-center w-full py-6 px-4">
+  <div className="w-full max-w-7xl bg-[#2d2d2d] rounded-2xl shadow-2xl px-6 sm:px-10 py-10 flex flex-col lg:flex-row gap-10">
+
     {/* Left side - Stats */}
-    <div className="flex flex-row lg:flex-col justify-center items-center gap-6 lg:pr-10 lg:border-r border-gray-200 w-full lg:w-[250px]">
+    <div className="flex bg-white rounded-xl p-2 flex-row lg:flex-col justify-center items-center gap-6 lg:pr-10 lg:border-r border-gray-200 w-full lg:w-[250px]">
       {services.map((service, idx) => (
         <div key={idx} className="flex flex-col items-center">
           {service.icon}

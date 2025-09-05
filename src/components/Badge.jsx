@@ -7,7 +7,7 @@ const badges = [
 ];
 
 const Badge = () => (
-  <div className="bg-black w-full min-h-[220px] px-4 py-8">
+  <div className="bg-[#2d2d2d] w-full min-h-[220px] px-4 py-8">
     <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
       {/* Left Section */}
       <div className="w-full md:w-1/2 text-center md:text-left">

@@ -152,13 +152,14 @@ const ImageCarousel = () => {
           <div className="flex justify-center gap-6 mt-6">
             <button
               onClick={handlePrev}
-              className="p-3 bg-white rounded-full shadow-md hover:scale-102 transition"
+             className="bg-gray-300 hover:bg-gray-400 text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold cursor-pointer"
+             
             >
               <ArrowLeft className="w-6 h-6 text-black" />
             </button>
             <button
               onClick={handleNext}
-              className="p-3 bg-white rounded-full shadow-md hover:scale-102 transition"
+className="bg-gray-300 hover:bg-gray-400 text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold cursor-pointer"
             >
               <ArrowRight className="w-6 h-6 text-black" />
             </button>
