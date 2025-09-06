@@ -5,10 +5,10 @@ import { useNavigate } from "react-router-dom";
 const GoldButton = ({
   text,
   to,
-  borderColor = "white",
-  textColor = "white",
-  hoverBg = "white",
-  hoverText = "black",
+  borderColor = "black",
+  textColor = "black",
+  hoverBg = "black",
+  hoverText = "white",
 }) => {
   const navigate = useNavigate();
 

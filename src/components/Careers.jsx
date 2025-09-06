@@ -46,7 +46,7 @@ const Careers = () => {
   };
 
   return (
-    <section className="bg-[#2d2d2d] py-8 px-4 sm:px-6 lg:px-8">
+    <section className="bg-black py-8 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         {/* Heading */}
         <h1
@@ -107,7 +107,7 @@ const Careers = () => {
               onClick={() => scroll("left")}
               className="bg-gray-300 hover:bg-gray-400 text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold cursor-pointer"
             >
-              <ChevronLeft className="w-5 h-5 " />
+              <ChevronLeft className="w-5 h-5" />
             </button>
             <button
               onClick={() => scroll("right")}

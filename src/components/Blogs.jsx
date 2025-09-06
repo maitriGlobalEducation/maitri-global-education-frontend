@@ -60,7 +60,7 @@ if (!blogs.length) {
   const rightImage = blogs[(index + 2) % blogs.length];
 
   return (
-    <div className="w-full bg-[#2d2d2d] px-4 py-4">
+    <div className="w-full px-4 py-4">
 
       <h1 
           style={{ fontFamily: "Epika", fontWeight: "bold" }}
@@ -88,8 +88,8 @@ if (!blogs.length) {
           <div className="relative min-h-[130px]">
             <div className="flex justify-between items-start mb-4">
               <div className="pr-2">
-                <h1 className="text-xl md:text-2xl font-bold text-white line-clamp-2">{leftImage.title}</h1>
-                <span className="mt-2 inline-block border border-gray-400 px-2.5 py-1 text-sm text-white rounded-full uppercase tracking-wide">
+                <h1 className="text-xl md:text-2xl font-bold text-gray-800 line-clamp-2">{leftImage.title}</h1>
+                <span className="mt-2 inline-block border border-gray-400 px-2.5 py-1 text-sm text-gray-600 rounded-full uppercase tracking-wide">
                   {leftImage.blogType.type}
                 </span>
               </div>
@@ -114,8 +114,8 @@ if (!blogs.length) {
           <div className="relative min-h-[130px]">
             <div className="flex justify-between items-start mb-4">
               <div className="pr-2">
-                <h1 className="text-lg sm:text-xl text-white font-semibold line-clamp-2">{centerImage.title}</h1>
-                <span className="mt-1 inline-block border border-white px-2.5 py-1 text-sm text-white rounded-full uppercase tracking-wide">
+                <h1 className="text-lg sm:text-xl  font-semibold line-clamp-2">{centerImage.title}</h1>
+                <span className="mt-1 inline-block border border-gray-400 px-2.5 py-1 text-sm text-gray-600 rounded-full uppercase tracking-wide">
                   {centerImage.blogType.type}
                 </span>
               </div>
@@ -135,8 +135,8 @@ if (!blogs.length) {
           <div className="relative min-h-[130px]">
             <div className="flex justify-between items-start mb-4">
               <div className="pr-2">
-                <h1 className="text-base md:text-lg text-white font-semibold line-clamp-2">{rightImage.title}</h1>
-                <span className="mt-1 inline-block border border-white px-2 py-1 text-xs text-white rounded-full uppercase tracking-wide">
+                <h1 className="text-base md:text-lg  font-semibold line-clamp-2">{rightImage.title}</h1>
+                <span className="mt-1 inline-block border border-gray-400 px-2 py-1 text-xs text-gray-600 rounded-full uppercase tracking-wide">
                   {rightImage.blogType.type}
                 </span>
               </div>
