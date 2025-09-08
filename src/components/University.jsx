@@ -3,7 +3,7 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 import { Link } from "react-router-dom";
 
-import GoldButton from "./Goldbutton";
+import GoldButton from "./GoldButton";
 
 
 const University = () => {

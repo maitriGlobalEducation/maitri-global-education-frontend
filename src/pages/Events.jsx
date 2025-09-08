@@ -1,5 +1,4 @@
-import GoldButton from '../components/Goldbutton';
-
+import GoldButton from "../components/GoldButton";
 export default function Eventsind() {
   // ✅ Define your data object here
   const events = [

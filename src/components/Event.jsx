@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import "../font.css";
-import GoldButton from "./Goldbutton";
+import GoldButton from "./GoldButton";
 import { ArrowRight, ArrowLeft } from "lucide-react";
 
 const ImageCarousel = () => {
@@ -74,7 +74,7 @@ const ImageCarousel = () => {
       <div className="w-full flex justify-center">
         <h1
           style={{ fontFamily: "Epika" }}
-          className="inline-block bg-gradient-to-r from-[#d4af37] via-[#e6c200] to-[#b8860b] bg-clip-text text-transparent text-4xl md:text-5xl font-bold mb-2 leading-tight tracking-wide uppercase drop-shadow-lg"
+          className="text-5xl sm:text-4xl lg:text-5xl text-center  font-bold bg-gradient-to-r from-[#d4af37] via-[#f5deb3] to-[#b8860b] bg-clip-text text-transparent mb-15 p-2 tracking-wider"
         >
           Events & Engagements
         </h1>

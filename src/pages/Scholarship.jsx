@@ -1,6 +1,6 @@
 import {React,useEffect,useState} from 'react';
 import '../index.css';
-import GoldButton from '../components/Goldbutton';
+import GoldButton from "../components/GoldButton";
 
 const scholarshipData = [
     {

@@ -7,8 +7,8 @@ const navLinks = [
   { title: "SCHOLARSHIPS", href: "/scholarship" },
   { title: "EVENTS & WEBINARS", href: "/events" },
   { title: "BLOGS", href: "/blogs" },
-  { title: "SERVICES", href: "#" },
-  { title: "JOB SEARCH", href: "/job-search" },
+  { title: "SERVICES", href: "/service" },
+  { title: "ELITE CAREER CHOICE", href: "/elite-career" },
   { title: "ABOUT", href: "/about" },
   { title: "CONTACT US", href: "/contact" },
 ];

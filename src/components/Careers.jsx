@@ -46,12 +46,12 @@ const Careers = () => {
   };
 
   return (
-    <section className="bg-black py-8 px-4 sm:px-6 lg:px-8">
+    <section className="bg-[#272626] py-8 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         {/* Heading */}
         <h1
           style={{ fontFamily: "Epika" }}
-          className="text-5xl sm:text-6xl lg:text-7xl font-bold bg-gradient-to-r from-[#d4af37] via-[#f5deb3] to-[#b8860b] bg-clip-text text-transparent mb-12 tracking-wider"
+          className="text-5xl sm:text-6xl lg:text-5xl text-center font-bold bg-gradient-to-r from-[#d4af37] via-[#f5deb3] to-[#b8860b] bg-clip-text text-transparent mb-12 tracking-wider"
         >
           Elite Career Choices
         </h1>
@@ -68,7 +68,7 @@ const Careers = () => {
                 className="flex-none w-80 sm:w-[340px] snap-start"
               >
                 {/* Card */}
-                <div className="bg-neutral-900 rounded-2xl rounded-tr-[0px] overflow-hidden mb-6 shadow-lg flex flex-col">
+                <div className="bg-[#272626] rounded-2xl rounded-tr-[0px] overflow-hidden mb-6 shadow-lg flex flex-col">
                   {/* Image + tags */}
                   <div className="relative">
                     <img
@@ -77,11 +77,11 @@ const Careers = () => {
                       className="w-full h-[460px] object-cover"
                     />
                     {/* Tag bar */}
-                    <div className="absolute top-0 right-0 flex gap-2 px-3 py-2 bg-black rounded-bl-3xl">
+                    <div className="absolute top-0 right-0 flex gap-2 px-3 py-2 bg-[#272626] rounded-bl-3xl">
                       {career.tags?.map((tag, i) => (
                         <span
                           key={i}
-                          className="px-3 py-1 text-xs font-medium text-white bg-neutral-900 rounded-full border border-white/10"
+                          className="px-3 py-1 text-xs font-medium text-white bg-[#272626] rounded-full border border-white/10"
                         >
                           {tag}
                         </span>

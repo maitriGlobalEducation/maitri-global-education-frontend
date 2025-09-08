@@ -76,20 +76,22 @@ useEffect(() => {
 }, [isPaused]);
 
   return (
-    <div className="w-full overflow-hidden bg-[#2d2d2d] p-3">
+    <div className="w-full overflow-hidden bg-[#272626] p-3">
       {/* Heading */}
       <div className="mx-2 sm:mx-4 md:mx-12 lg:mx-20">
         <h1
-          style={{ fontFamily: "Epika" }}
-          className="bg-gradient-to-r from-[#d4af37] via-[#f5deb3] to-[#b8860b]
-          bg-clip-text text-transparent text-3xl md:text-5xl font-bold uppercase drop-shadow-lg 
-          max-w-[90vw] sm:max-w-3xl mx-auto md:mx-0"
-        >
-          STUDY IN PRESTIGIOUS LOCATIONS
-        </h1>
-        <a className="text-lg text-white underline" href="#">
-          Find out our school
-        </a>
+  style={{ fontFamily: "Epika" }}
+  className="bg-gradient-to-r from-[#d4af37] via-[#f5deb3] to-[#b8860b]
+  bg-clip-text text-transparent text-3xl md:text-5xl text-center font-bold uppercase drop-shadow-lg 
+  max-w-[90vw] sm:max-w-3xl mx-auto"
+>
+  STUDY IN PRESTIGIOUS LOCATIONS
+</h1>
+
+        <a className="block w-full text-lg text-white text-center underline" href="#">
+  Find out our school
+</a>
+
       </div>
 
       {/* Carousel */}

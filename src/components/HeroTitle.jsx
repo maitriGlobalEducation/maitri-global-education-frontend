@@ -1,6 +1,6 @@
 import '../index.css'
 import Button from './Button'
-import GoldButton from './Goldbutton'
+import GoldButton from "./GoldButton";
 function HeroTitle() {
     return (
         <>

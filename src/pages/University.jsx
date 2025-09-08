@@ -156,7 +156,7 @@ export default function Universitydetail() {
       {/* Apply Now Button */}
       <div className="flex justify-center p-5">
         <button className="px-8 py-2 bg-gradient-to-r from-[#d4af37] via-[#e6c200] to-[#b8860b]
-           text-black font-thin font-semibold rounded hover:scale-102 transition-all duration-300 cursor-pointer">
+           text-black font-semibold rounded hover:scale-102 transition-all duration-300 cursor-pointer">
           Apply Now
         </button>
       </div>

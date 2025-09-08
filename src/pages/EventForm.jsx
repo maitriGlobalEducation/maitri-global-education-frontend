@@ -1,6 +1,6 @@
-import GoldButton from "../components/Goldbutton";
+import GoldButton from "../components/GoldButton";
 
-export default function ScholarshipForm() {
+export default function EventForm() {
   return (
     <div className="w-full h-auto">
       {/* Hero Section with Image */}

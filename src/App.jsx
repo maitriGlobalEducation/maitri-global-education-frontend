@@ -16,23 +16,19 @@ import Scholarships from './components/Scholarships';
 import Event from './components/Event';
 
 import Exp from './pages/Exp';
-
 import Explore from './pages/Explore';
-
 import Careers from './components/Careers';
 import University from './components/University';
-
-
 import Blogsind from './pages/Blogs';
 import Eventsind from './pages/Events';
 import Universitydetail from './pages/University';
-
+import Service from './pages/Service';
 import ScholarshipForm from './pages/ScholarshipForm';
 
 
 import BlogsForm from './pages/BlogsForm';
 import EventForm from './pages/EventForm';
-import JobSearch from './pages/JobSearch';
+import Elitecarrerchoice from './pages/Elitecareerchoice';
 import Contact from './pages/Contact';
 
 
@@ -58,10 +54,10 @@ function App() {
           <Route path="/blogs" element={<Blogsind/>}/>
           <Route path="/events" element={<Event/>}/>
           <Route path="/exp" element={<Exp/>}/>
-
+          <Route path="/service" element={<Service/>}/>
           <Route path="/blogs-form" element={<BlogsForm/>}/>
           <Route path="/event-form" element={<EventForm/>}/>
-          <Route path="/job-search" element={<JobSearch/>}/>
+          <Route path="/elite-career" element={<Elitecarrerchoice/>}/>
           <Route path="/contact" element={<Contact/>}/>
           {/* <Route path="/services" element={<Serices/>}/> */}
           
